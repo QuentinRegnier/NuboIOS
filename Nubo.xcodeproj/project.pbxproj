@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		784F80462E12056200C8F4C7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 784F80452E12056200C8F4C7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		784F7FDE2E11E02800C8F4C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,13 +31,14 @@
 		784F7FCC2E11E02700C8F4C7 /* Nubo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nubo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F7FDD2E11E02800C8F4C7 /* NuboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F7FE72E11E02800C8F4C7 /* NuboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784F80452E12056200C8F4C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		784F7FEF2E11E02800C8F4C7 /* Exceptions for "Nubo" folder in "Nubo" target */ = {
+		784F80442E12018500C8F4C7 /* Exceptions for "Nubo" folder in "Nubo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				SupportingFiles/Info.plist,
 			);
 			target = 784F7FCB2E11E02700C8F4C7 /* Nubo */;
 		};
@@ -43,7 +48,7 @@
 		784F7FCE2E11E02700C8F4C7 /* Nubo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				784F7FEF2E11E02800C8F4C7 /* Exceptions for "Nubo" folder in "Nubo" target */,
+				784F80442E12018500C8F4C7 /* Exceptions for "Nubo" folder in "Nubo" target */,
 			);
 			path = Nubo;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		784F7FC32E11E02700C8F4C7 = {
 			isa = PBXGroup;
 			children = (
+				784F80452E12056200C8F4C7 /* README.md */,
 				784F7FCE2E11E02700C8F4C7 /* Nubo */,
 				784F7FE02E11E02800C8F4C7 /* NuboTests */,
 				784F7FEA2E11E02800C8F4C7 /* NuboUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784F80462E12056200C8F4C7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +294,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Nubo/Nubo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Nubo/SupportingFiles/Nubo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2CND997X8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nubo/Info.plist;
+				INFOPLIST_FILE = Nubo/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nubo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,13 +329,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Nubo/Nubo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Nubo/SupportingFiles/Nubo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2CND997X8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Nubo/Info.plist;
+				INFOPLIST_FILE = Nubo/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nubo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
